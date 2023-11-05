@@ -1,0 +1,5 @@
+﻿//add migration with DBcontext
+Add-Migration InitialCreate -Context AzureSamplesMySQLDBContext
+
+//update DB with DBcontext
+update-database -Context AzureSamplesMySQLDBContext
